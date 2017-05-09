@@ -6,6 +6,7 @@ import javafx.animation.KeyFrame;
 import javafx.animation.KeyValue;
 import javafx.animation.Timeline;
 import javafx.application.Application;
+import static javafx.application.Application.launch;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Point2D;
@@ -304,7 +305,6 @@ public static class Piece extends Parent {
         primaryStage.show();
     }
 
-}
     public static void main(String[] args) {
         launch(args);
     }
